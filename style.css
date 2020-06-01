@@ -1,0 +1,93 @@
+.nav-link{
+    font-weight: bold;
+    color:white !important;
+}
+.img{
+    height: 65px;
+    width: 250px;
+     padding-left: 20px; 
+}
+.navbar-text{
+    padding-right: 20px;
+}
+.nav-item:hover{
+    background-color: brown;
+}
+.dropdown-item:hover{
+    background-color: brown;
+}
+
+
+.fa-shopping-bag,.fa-user-circle{
+    font-size: 25px !important;
+
+}
+.fa-truck,.fa-thumbs-up,.fa-headphones{
+font-size:50px !important;
+margin-right: 10px;
+color: blue;
+}
+.card1,.card2,.card3{
+    display: flex;
+    width: 300px;
+    height: 100px;
+    background-color: #ffffff;
+    box-shadow:2px 4px 5px grey;
+    /* in this we use it  for in the box the text and log should be in the center in horozontal way */
+    justify-content: center;
+    /* this is ude for vertical center */
+    align-items: center;
+}
+h3{
+    color: blue !important;
+}
+.maincard{
+    /* margin top creaate the space between two boundries in this case it is from upper */
+    margin-top: 50px;
+    /* display flex used for creating one row which is rq in thi situation */
+    display: flex;
+    /* justify-contect used for space bwteen the columns */
+    justify-content: space-around;
+    /* used for responsiveness */
+    flex-wrap: wrap;
+
+    
+}
+
+/* it is ude bcz it would cover the full size of screen if used by small screen devices */
+@media screen and (max-width:600px){
+    .card1,.card2,.card3{
+        width: 100%;
+    }
+}
+
+.newarrivals{
+    margin-top: 50px;
+}
+
+.card{
+    width: 25px;
+    height:auto ;
+    text-align: center;
+    
+}
+.btn-primary:hover{
+    background-color: brown;
+}
+.btn-primary{
+    width: 200px !important;
+
+}
+.heading{
+    color: blue;
+    text-align: center;
+    font-weight: bold;
+}
+.footer{
+    width: 100%;
+    height: 70px;
+    background-color: blue;
+}
+.footer>div{
+    text-align: center !important;
+}

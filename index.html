@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bakers</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <!--link used for icons which are made up copied from w3school  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+  <div>
+    <!-- click the components on bootstrap and then on navigation bar then do rest of the copy and paste -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary fixed-top">
+      <!-- try always to  use transparent logo it will adjust regardless of any color -->
+      <a class="navbar-brand" href="#">
+        <img class="img img-responsive" src="cake.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText"
+        aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarText">
+        <!--leave this ul because it made links go to other side  -->
+        <ul class="navbar-nav mr-auto">
+        </ul>
+        <span class="navbar-text">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                SHOP
+              </a>
+              <div class="dropdown-menu bg-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#cake">CAKE</a>
+                <a class="dropdown-item" href="pastry.html">PASTRY</a>
+              </div>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">ABOUT US</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT US</a>
+            </li>
+            <!-- got font awesome list use 4.7 version then just compy and paste your choice of icons -->
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-user-circle" aria-hidden="true"></i> </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"><i class="fa fa-shopping-bag" aria-hidden="true"></i> </a>
+            </li>
+
+          </ul>
+        </span>
+      </div>
+    </nav>
+    <!-- for slides click the components on bootstrap and then on Carousel then do rest of the copy and paste -->
+    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="4.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="1.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="3.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+    <div class="maincard">
+      <div class="card1">
+        <div>
+          <i class="fa fa-truck" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h3>Free shipping</h3>
+        </div>
+
+      </div>
+      <div class="card2">
+        <div>
+          <i class="fa fa-headphones" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h3>24/7 Support</h3>
+        </div>
+      </div>
+      <div class="card3">
+        <div>
+          <i class="fa fa-thumbs-up" aria-hidden="true"></i>
+        </div>
+        <div>
+          <h3>No-1 Quality</h3>
+        </div>
+      </div>
+    </div>
+    <div class="maincard">
+      <div class="heading">
+        <h1 id="cake">NEW CAKES</h1>
+      </div>
+    </div>
+
+    <div class="newarrivals">
+      <div class="container">
+        <div class="row justify-content-md-center">
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 16rem;">
+              <img src="cake.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Chocalate Cake</h5>
+                <p class="card-text">Rs:1000</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 ">
+            <div class="card" style="width: 16rem;">
+              <img src="cak1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Dry-Fruit Cake</h5>
+                <p class="card-text">Rs:1500</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3 ">
+            <div class="card" style="width: 16rem;">
+              <img src="cake3.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Strawberry Cake</h5>
+                <p class="card-text">Rs:2000</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-3">
+            <div class="card" style="width: 16rem;">
+              <img src="cake4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Coffee Cake</h5>
+                <p class="card-text">Rs:2000</p>
+                <a href="#" class="btn btn-primary">Add to cart</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="maincard">
+        <div class="heading">
+          <h1>FEATURED PRODUCTS</h1>
+        </div>
+      </div>
+      <div class="newarrivals">
+        <div class="container">
+          <div class="row justify-content-md-center">
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 16rem;">
+                <img src="p1.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Strawberry Cake</h5>
+                  <p class="card-text">Rs:1000</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 ">
+              <div class="card" style="width: 16rem;">
+                <img src="p2.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Best-birthday Cake</h5>
+                  <p class="card-text">Rs:1500</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3 ">
+              <div class="card" style="width: 16rem;">
+                <img src="p3.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">ice-cream Cake</h5>
+                  <p class="card-text">Rs:2000</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-6 col-lg-3">
+              <div class="card" style="width: 16rem;">
+                <img src="p4.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Chocalate Cake</h5>
+                  <p class="card-text">Rs:2000</p>
+                  <a href="#" class="btn btn-primary">Add to cart</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="footer">
+          <div>
+            <h4>Copy Right<i class="fa fa-copyright" aria-hidden="true"></i>Saylani</h4>
+          </div>
+        </div>
+      </div>
+
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
